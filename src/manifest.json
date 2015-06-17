@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Unsplash Wallpapers",
+  "description": "TODO",
+
+  "version": "0.1",
+
+  "permissions": [
+    "alarms",
+    "wallpaper",
+    "https://ununsplash.imgix.net/",
+    "https://unsplash.com/rss"
+  ],
+  "minimum_chrome_version": "43",
+
+  "app": {
+    "background": {
+      "scripts": [ "background.js"]
+    }
+  }
+}
